@@ -4,8 +4,8 @@
 
 rild.libpath=/system/lib/libmoto_ril.so
 rild.libargs=-d /dev/ttyS0
+# leave this commented out and use LithiumMod Settings to change density
 # ro.sf.lcd_density=240
-ro.sf.lcd_density=192
 
 # Default network type.
 # 4 => CDMA / EVDO.
